@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar HTML Dasar</title>
+
+    <!-- Style CSS -->
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Tag H1 - H6 -->
+    <h1>Ini Tag H1</h1>
+    <h2>Ini tag h2</h2>
+    <h3>Ini Tag H3</h3>
+    <h4>Ini Tag H4</h4>
+    <h5>Ini tag h5</h5>
+    <h6>Ini tag h6</h6>
+    <h6>tag 6 baru</h6>
+
+    <!-- Paragraf -->
+    <p>
+      Lorem ipsum <b>dolor</b> sit, amet
+      <strong>consectetur</strong> adipisicing elit. Nulla <i>soluta</i> iure
+      magni eos, <u>possimus quidem cum aliquam</u> quis, corporis nisi, aperiam
+      blanditiis eligendi. Asperiores quam quas, dolores omnis quisquam aliquam!
+    </p>
+
+    <!-- Garis -->
+    <hr />
+
+    <img
+      src="./assets/images/puan-1.jpeg"
+      alt="Gambar Puan"
+      width="300px"
+      height="150px"
+    />
+
+    <!-- Baris Baru -->
+    <br />
+
+    <!-- Link -->
+    <a href="https://facebook.com" target="_blank">Ini Link ke Facebook</a>
+
+    <!-- Membuat List -->
+    <h1>Daftar Nama Murid</h1>
+    <!-- List tidak berurutan -->
+    <ul>
+      <li>Yogi</li>
+      <li>Ferdinan</li>
+      <li>Gagan</li>
+      <li>Bedri</li>
+    </ul>
+    <!-- List berurutan -->
+    <ol>
+      <li>Yogi</li>
+      <li>Ferdinan</li>
+      <li>Gagan</li>
+      <li>Bedri</li>
+    </ol>
+
+    <!-- Table -->
+    <table>
+      <!-- Table head -->
+      <tr>
+        <th>Nama Siswa</th>
+        <th>Nilai</th>
+      </tr>
+      <!-- Table body -->
+      <tr>
+        <td>Yogi</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Ferdinand</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Gagan</td>
+        <td>9</td>
+      </tr>
+    </table>
+
+    <!-- Form -->
+    <h1>Login User</h1>
+    <form>
+      <!-- Input Type Text -->
+      <label for="nama">Nama</label>
+      <input
+        type="text"
+        id="nama"
+        name="nama"
+        placeholder="Masukan nama anda..."
+      />
+
+      <!-- Input Type Email -->
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="email.anda@mail.test"
+      />
+
+      <!-- Input Type Password -->
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+    </form>
+  </body>
+</html>
